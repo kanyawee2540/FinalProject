@@ -48,6 +48,5 @@ public class PlayPage extends AppCompatActivity {
                 return false;
             }
         });
-        Toast.makeText(PlayPage.this, input.getText(), Toast.LENGTH_SHORT).show();
     }
 }
