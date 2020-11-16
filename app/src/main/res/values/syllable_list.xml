@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="syllble_list">
+        <item>1 พยางค์</item>
+        <item>2 พยางค์</item>
+        <item>3 พยางค์</item>
+        <item>4 พยางค์</item>
+    </string-array>
+</resources>
