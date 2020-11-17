@@ -14,17 +14,34 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/timecountdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="TextView" />
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/imgRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:srcCompat="@tools:sample/avatars" />
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </GridView>
 
         <EditText
             android:id="@+id/answerText"
@@ -39,5 +56,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/show" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
